@@ -11,8 +11,8 @@ public class HotelsController : ControllerBase
 {
     private static List<Hotel> hotels = new List<Hotel>
     {
-        new Hotel { Id = 1, Name = "Hotel California", Address = "42 Sunset Blvd, Los Angeles, CA", Rating = 4.5 },
-        new Hotel { Id = 2, Name = "The Grand Budapest", Address = "1 Alpine St, Zubrowka", Rating = 4.8 }
+        new Hotel { Id = 1, Name = "Grand Plaza", Address = "123 Main St", Rating = 4.5 },
+        new Hotel { Id = 2, Name = "Ocean View", Address = "456 Beach Rd", Rating = 4.8 }
     };
 
     // GET: api/<HotelsController>
